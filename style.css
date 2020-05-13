@@ -1,0 +1,169 @@
+@media (min-width: 500px){
+			body {
+				font-family: sans-serif;
+				margin-top: 5;
+			}
+
+			header {
+				background: url(./header-books.jpg);
+				background-repeat: no-repeat;
+				background-attachment: fixed; 
+				background-size: 100% 100%;
+				}
+
+			footer {
+				background: url(./footer-books.jpg);
+				background-repeat: no-repeat;
+				background-attachment: fixed; 
+				background-size: 100% 100%;
+				color: 	white;
+				}
+				
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				width: 200px;
+				background-color: #f1f1f1;
+				border: 1px solid #555;
+				}
+
+			li a {
+				display: block;
+				color: #000;
+				padding: 8px 16px;
+				text-decoration: none;
+				}
+
+				/* Change the link color on hover */
+			li a:hover {
+				background-color: #998A4F;
+				color: white;
+				}
+			li {
+				text-align: center;
+				border-bottom: 1px solid #555;
+				}
+
+			li:last-child {
+				border-bottom: none;
+				}
+
+			li a.active {
+				background-color: #998A4F;
+				color: white;
+				}
+
+			li a:hover:not(.active) {
+				background-color: #555;
+				color: white;
+				}
+			.links {
+			  color: black;
+			  font-weight: bold;
+			  text-decoration: none;
+			}
+
+			/* visited link */
+			.links:visited {
+			  color: #666666;
+			}
+
+			/* mouse over link */
+			.links:hover {
+			  color: #3390ff;
+			}
+
+			/* selected link */
+			.links:active {
+			  color: #666666;
+			}
+
+			.center {
+				float: center;
+				text-align: center;
+				color: white;
+			}
+
+			.othercenter {
+				float: center;
+				text-align: center;
+				color: black;
+			}
+
+			.left {
+				float: left;
+				text-align: left;
+				font-weight: bold, italic;
+				text-decoration: underline;
+			}
+
+			.searchBar {
+				  float: center;
+				  padding: 6px 10px;
+				  margin-top: 8px;
+				  margin-right: 16px;
+				  background: #F3F3F3;
+				  font-size: 14px;
+				  border: none;
+				  cursor: pointer;
+			}
+
+			.topButton {
+			    display: block;
+			    color: white;
+			    text-align: center;
+			    padding: 5px;
+			    text-decoration: none;
+			    float: left;
+			    font-weight: bold;
+			}
+			
+			.topButton:hover {
+			    background-color: #3390ff;
+			}
+
+
+		.Button {
+				float: center;
+				padding: 5px 5px;
+				background-color: white;
+				color: black;
+				border: 2px solid #666666;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 14px;
+				margin: 4px 2px;
+				transition-duration: 0.4s;
+				cursor: pointer;
+				font-weight: bold;
+			}
+
+			.Button1 {
+				background-color: white;
+  				color: black;
+  				border: 2px solid #555555;
+			}
+
+			.Button1:hover {
+  				background-color: #555555;
+  				color: white;
+			}
+
+			.Button2 {
+				background-color: white;
+  				color: #3390ff;
+  				border: 2px solid #3390ff;
+			}
+
+			.Button2:hover {
+  				background-color: #3390ff;
+  				color: white;
+			}
+
+			.bordersDiv {
+				border: 1px solid gray;
+  				border-radius: 8px;
+  				padding: 5px 5px;
+			}
